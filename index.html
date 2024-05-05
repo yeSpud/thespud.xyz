@@ -3,25 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Spud</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div style="height: 100vh; background-color: lightgray;">
-		<h1>Spud</h1>
-		<ul>
+		<div style="padding-top: 50vh">
+			<img src="https://avatars.githubusercontent.com/u/10385195?v=4" alt="profile picture">
+			<h1 class="display-1" style="padding: 20px">Spud</h1>
+		</div>
+		<div id="socials" style="padding: 20px">
+			<a class="fa fa-github" style="font-size: 50px; color: black" href="https://github.com/yeSpud"></a>
+		</div>
+		<ul class="list-unstyled" style="padding: 20px">
 			<li>
-				<a href="#current">Current projects</a>
+				<a href="#current" class="h4">Current projects</a>
 			</li>
 			<li>
-				<a href="#deprecated">Deprecated projects</a>
+				<a href="#deprecated" class="h4">Deprecated projects</a>
 			</li>
 		</ul>
 	</div>
 	<div id="current" style="text-align: center; background-color: darkgray">
-		<h2>Current projects</h2>
+		<h1 class="h1">Current projects</h1>
 		<p>Projects I'm actively working on</p>
 	</div>
 	<div id="deprecated" style="text-align: center; background-color: gray">
-		<h2>Deprecated projects</h2>
+		<h1 class="h1">Deprecated projects</h1>
 		<p>Projects I'm no longer working on</p>
 	</div>
 </body>
