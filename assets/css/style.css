@@ -1,0 +1,37 @@
+.main {
+    height: 100vh;
+    background-color: gray;
+    color: white;
+}
+
+.profile-picture-container {
+    padding-top: 50vh;
+}
+
+.main-padding {
+    padding: 20px;
+}
+
+.projects {
+    background-color: #24292e;
+    color: white;
+}
+
+.projects-header {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.projects-header-helper-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.projects-container {
+    padding-bottom: 50px;
+}
+
+.projects-card {
+    width: 25vw;
+    background-color: black
+}
